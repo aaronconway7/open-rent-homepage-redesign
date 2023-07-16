@@ -1,14 +1,18 @@
-# [OpenRent](https://openrent.co.uk) Homepage Redesign 🏠
+# [OpenRent Homepage Redesign](https://openrent-homepage-redesign.netlify.app/) 🏠
 
 ![Screenshot of my redesign](./files/screenshot-new.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ed340ae-678d-48af-a77f-1bfab7402b37/deploy-status)](https://app.netlify.com/sites/openrent-homepage-redesign/deploys)
+
 > Following on from that, given publicly accessible work is often limited and doesn't necessarily show off your current ability, we like to get candidates to perform a small front-end based project. If you could take a page on our site (any you like), and put together an alternative design/UI/UX. I wouldn't spend _too_ much time on this, but bonus points for it working with a live demo! The idea here is to see, without any real brief, what you'd do to our UI / UX. It's also hopefully a chance to show off technical, design and product development ability!
 
-## Current Site 📆
+## [Current Site](https://openrent.co.uk) 📆
 
 ![Screenshot of the current site](./files/screenshot-old.png)
 
 ## Getting Started 🏃‍♂️
+
+This page is deployed on [Netlify](https://www.netlify.com/) - check it our [here](https://openrent-homepage-redesign.netlify.app/)!
 
 > Remember to `npm install`!
 
