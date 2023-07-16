@@ -2,7 +2,7 @@ import Container from "./Container";
 
 export default function Mentions() {
   return (
-    <Container className="py-12 md:pb-24">
+    <Container className="py-12 md:pb-24 md:pt-0">
       <h2 className="text-center mb-8 text-2xl font-extralight">
         People are talking about us!
       </h2>

@@ -5,19 +5,29 @@ export const Footer = () => {
     <footer className="border-t border-brand border-opacity-50">
       <Container className="py-8">
         <div className="space-y-8 md:space-y-0 md:gap-20 md:flex md:items-start">
-          <img
-            src="src/assets/images/logos/open-rent.png"
-            alt="OpenRent"
-            className="w-40"
-          />
+          <div>
+            <a href="https://openrent.co.uk">
+              <img
+                src="src/assets/images/logos/open-rent.png"
+                alt="OpenRent"
+                className="w-40 mb-4 md:-ml-11"
+              />
+            </a>
+            <p className="text-sm leading-relaxed opacity-75">
+              Office 34
+              <br />
+              67-68 Hatton Garden
+              <br />
+              London
+              <br />
+              EC1N 8JY
+            </p>
+          </div>
           <ul className="space-y-1">
             <h4 className="mb-2 text-sm">Company</h4>
             {companyLinks.map((link) => (
               <li key={link.text}>
-                <a
-                  href={link.href}
-                  className="font-light text-sm text-brand hover:opacity-50"
-                >
+                <a href={link.href} className="link text-sm">
                   {link.text}
                 </a>
               </li>
@@ -27,10 +37,7 @@ export const Footer = () => {
             <h4 className="mb-2 text-sm">Resources</h4>
             {resourceLinks.map((link) => (
               <li key={link.text}>
-                <a
-                  href={link.href}
-                  className="font-light text-sm text-brand hover:opacity-50"
-                >
+                <a href={link.href} className="link text-sm">
                   {link.text}
                 </a>
               </li>

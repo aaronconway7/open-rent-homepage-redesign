@@ -4,6 +4,9 @@ import PropertySearch from "./components/PropertySearch";
 import Mentions from "./components/Mentions";
 import { Footer } from "./components/Footer";
 import Header from "./components/Header";
+import Landlords from "./components/Landlords";
+import Tenants from "./components/Tenants";
+import Callout from "./components/Callout";
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Header />
       <Hero />
       <PropertySearch />
+      <Landlords />
+      <Callout />
+      <Tenants />
       <PropertyGrid />
       <Mentions />
       <Footer />

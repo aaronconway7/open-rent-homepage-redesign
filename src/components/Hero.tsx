@@ -15,7 +15,7 @@ export default function Hero() {
           </p>
           <a
             href="https://www.openrent.co.uk/listing/add"
-            className="inline-block bg-brand py-3 px-5 rounded-lg text-white font-medium mb-6 md:mb-16"
+            className="btn inline-block py-3 px-5 rounded-lg mb-6 md:mb-16"
           >
             List my property
           </a>

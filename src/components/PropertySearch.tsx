@@ -9,7 +9,7 @@ export default function PropertySearch() {
 
   return (
     <div className="bg-slate-100 text-center">
-      <Container className="py-12">
+      <Container className="pt-12 pb-16">
         <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl mb-8 font-extralight">
             Looking for your next home?
@@ -25,7 +25,7 @@ export default function PropertySearch() {
             />
             <button
               type="submit"
-              className="inline-block bg-brand py-3 px-5 rounded-r-lg text-white"
+              className="btn inline-block py-3 px-5 rounded-r-lg "
             >
               Search
             </button>

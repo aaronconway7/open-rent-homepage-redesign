@@ -24,3 +24,17 @@
     @apply text-gray-950;
   }
 }
+
+@layer components {
+  .btn {
+    @apply bg-brand hover:bg-sky-700 text-white font-medium transition-colors;
+  }
+
+  .btn-outline {
+    @apply text-brand border border-brand rounded-lg font-medium hover:bg-slate-100 transition-colors;
+  }
+
+  .link {
+    @apply font-light text-brand hover:opacity-50;
+  }
+}
