@@ -1,10 +1,12 @@
+import Container from "./Container";
+
 export default function Mentions() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      <h2 className="text-center mb-4 text-2xl">
+    <Container className="py-12 md:pb-24">
+      <h2 className="text-center mb-8 text-2xl font-extralight">
         People are talking about us!
       </h2>
-      <div className="flex flex-wrap gap-x-14 justify-center">
+      <div className="flex flex-wrap gap-x-14 gap-y-4 justify-center">
         {logos.map((logo) => (
           <a href={logo.href} key={logo.alt} target="_blank">
             <img
@@ -15,7 +17,7 @@ export default function Mentions() {
           </a>
         ))}
       </div>
-    </div>
+    </Container>
   );
 }
 
