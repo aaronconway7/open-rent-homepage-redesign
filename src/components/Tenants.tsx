@@ -1,3 +1,5 @@
+import TenantsImg from "../assets/images/tenants.jpg";
+
 export default function Tenants() {
   return (
     <div className="md:grid md:grid-cols-2">
@@ -24,6 +26,7 @@ export default function Tenants() {
           <a
             href="https://www.openrent.co.uk/find-property-to-rent-from-private-landlords"
             className="btn-outline inline-block py-3 px-5"
+            aria-label="Learn more about becoming a tenant with OpenRent"
           >
             Learn more
           </a>
@@ -31,7 +34,7 @@ export default function Tenants() {
       </div>
       <div className="relative">
         <img
-          src="src/assets/images/tenants.jpg"
+          src={TenantsImg}
           alt="Tenants"
           className="w-full h-full aspect-square object-cover"
         />

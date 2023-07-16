@@ -4,19 +4,10 @@
 
 @layer base {
   @font-face {
-    font-family: "Epilogue";
-    src: url("src/assets/fonts/Epilogue/epilogue-variablefont_wght-webfont.woff2")
-        format("woff2"),
-      url("src/assets/fonts/Epilogue/epilogue-variablefont_wght-webfont.woff")
-        format("woff");
-  }
-
-  @font-face {
     font-family: "Sora";
-    src: url("src/assets/fonts/Sora/Sora-VariableFont_wght.woff2")
+    src: url("$fonts/Sora/Sora-VariableFont_wght.woff2")
         format("woff2 supports variations"),
-      url("src/assets/fonts/Sora/Sora-VariableFont_wght.woff2")
-        format("woff2-variations");
+      url("$fonts/Sora/Sora-VariableFont_wght.woff2") format("woff2-variations");
     font-weight: 100 800;
   }
 

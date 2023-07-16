@@ -1,9 +1,11 @@
+import LandlordsImg from "../assets/images/landlord.jpg";
+
 export default function Landlords() {
   return (
     <div className="md:grid md:grid-cols-2">
       <div className="relative">
         <img
-          src="src/assets/images/landlord.jpg"
+          src={LandlordsImg}
           alt="Landlords"
           className="w-full h-full aspect-square object-cover"
         />
@@ -41,6 +43,7 @@ export default function Landlords() {
           <a
             href="https://www.openrent.co.uk/landlords-advertise-property-for-rent-on-rightmove-and-zoopla"
             className="btn-outline inline-block py-3 px-5"
+            aria-label="Learn more about becoming a landlord with OpenRent"
           >
             Learn more
           </a>

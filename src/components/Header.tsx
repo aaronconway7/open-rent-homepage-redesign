@@ -1,15 +1,13 @@
 import Container from "./Container";
 
+import OpenRentLogo from "../assets/images/logos/open-rent.png";
+
 export default function Header() {
   return (
     <header className="sticky top-0 shadow w-full bg-white z-10 rounded">
       <Container className="flex justify-between items-center py-4">
         <a href="https://openrent.co.uk">
-          <img
-            src="src/assets/images/logos/open-rent.png"
-            alt="OpenRent"
-            className="w-32"
-          />
+          <img src={OpenRentLogo} alt="OpenRent" className="w-32" />
         </a>
         <nav className="space-x-4 text-sm">
           <a

@@ -11,9 +11,9 @@ export default function PropertySearch() {
     <div className="bg-slate-100 text-center">
       <Container className="pt-12 pb-16">
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-2xl mb-8 font-extralight">
+          <h2 className="text-2xl mb-8 font-extralight">
             Looking for your next home?
-          </h3>
+          </h2>
           <form className="flex" onSubmit={searchForProperties}>
             <label htmlFor="location-search" className="sr-only">
               Where do you want to live?

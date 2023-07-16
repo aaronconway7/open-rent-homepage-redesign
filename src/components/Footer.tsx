@@ -1,5 +1,7 @@
 import Container from "./Container";
 
+import OpenRentLogo from "../assets/images/logos/open-rent.png";
+
 export const Footer = () => {
   return (
     <footer className="border-t border-brand border-opacity-50">
@@ -8,7 +10,7 @@ export const Footer = () => {
           <div>
             <a href="https://openrent.co.uk">
               <img
-                src="src/assets/images/logos/open-rent.png"
+                src={OpenRentLogo}
                 alt="OpenRent"
                 className="w-40 mb-4 md:-ml-11"
               />
@@ -23,26 +25,30 @@ export const Footer = () => {
               EC1N 8JY
             </p>
           </div>
-          <ul className="space-y-1">
-            <h4 className="mb-2 text-sm">Company</h4>
-            {companyLinks.map((link) => (
-              <li key={link.text}>
-                <a href={link.href} className="link text-sm">
-                  {link.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <ul className="space-y-1">
-            <h4 className="mb-2 text-sm">Resources</h4>
-            {resourceLinks.map((link) => (
-              <li key={link.text}>
-                <a href={link.href} className="link text-sm">
-                  {link.text}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <div>
+            <h3 className="mb-2 text-sm">Company</h3>
+            <ul className="space-y-1">
+              {companyLinks.map((link) => (
+                <li key={link.text}>
+                  <a href={link.href} className="link text-sm">
+                    {link.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="mb-2 text-sm">Resources</h3>
+            <ul className="space-y-1">
+              {resourceLinks.map((link) => (
+                <li key={link.text}>
+                  <a href={link.href} className="link text-sm">
+                    {link.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
         <hr className="my-4" />
         <p className="font-light text-xs opacity-60">

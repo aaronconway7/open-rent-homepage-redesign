@@ -1,5 +1,10 @@
 import Container from "./Container";
 
+import PropertiesImg from "../assets/images/properties.jpg";
+import RightmoveLogo from "../assets/images/logos/rightmove.png";
+import ZooplaLogo from "../assets/images/logos/zoopla.png";
+import PrimeLocationLogo from "../assets/images/logos/prime-location.png";
+
 export default function Hero() {
   return (
     <Container className="py-24">
@@ -33,19 +38,19 @@ export default function Hero() {
         </div>
         <div className="relative">
           <div className="absolute bg-white shadow-lg rounded p-3 -left-4 -top-4 w-min">
-            <h4 className="text-brand text-2xl md:text-3xl font-semibold">
+            <span className="inline-block text-brand text-2xl md:text-3xl font-semibold">
               965,352
-            </h4>
+            </span>
             <p className="text-xs md:text-sm">Properties let</p>
           </div>
           <div className="absolute bg-white shadow-lg rounded p-3 bottom-6 -right-4 lg:-right-8 max-w-min">
-            <h4 className="text-brand text-2xl md:text-3xl font-semibold">
+            <span className="inline-block text-brand text-2xl md:text-3xl font-semibold">
               5,638,963
-            </h4>
+            </span>
             <p className="text-xs md:text-sm">Registered landlords & tenants</p>
           </div>
           <img
-            src="src/assets/images/properties.jpg"
+            src={PropertiesImg}
             alt="Uk properties"
             className="rounded-2xl md:h-full object-cover"
           />
@@ -57,17 +62,17 @@ export default function Hero() {
 
 const logos = [
   {
-    src: "src/assets/images/logos/rightmove.png",
+    src: RightmoveLogo,
     alt: "Rightmove",
     href: "https://www.openrent.co.uk/rightmove",
   },
   {
-    src: "src/assets/images/logos/zoopla.png",
+    src: ZooplaLogo,
     alt: "Zoopla",
     href: "https://www.openrent.co.uk/zoopla",
   },
   {
-    src: "src/assets/images/logos/prime-location.png",
+    src: PrimeLocationLogo,
     alt: "PrimeLocation",
     href: "https://www.openrent.co.uk/primelocation",
   },

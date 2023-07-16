@@ -36,9 +36,9 @@ export default function Property({
         </span>
       )}
       <div className="flex flex-col flex-1 p-4">
-        <h4 className="text-2xl">
+        <p className="text-2xl">
           {beds} bed {type.toLocaleLowerCase()}
-        </h4>
+        </p>
         <p className="opacity-75">{address}</p>
         <p className="text-lg pt-4 mt-auto font-bold">
           £{price.toLocaleString()} p/m

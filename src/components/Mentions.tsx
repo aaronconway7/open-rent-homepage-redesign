@@ -1,5 +1,13 @@
 import Container from "./Container";
 
+import BBCLogo from "../assets/images/logos/bbc.png";
+import MirrorLogo from "../assets/images/logos/mirror.png";
+import TheSunLogo from "../assets/images/logos/the-sun.png";
+import ExpressLogo from "../assets/images/logos/express.png";
+import TheTelegraphLogo from "../assets/images/logos/the-telegraph.png";
+import ForbesLogo from "../assets/images/logos/forbes.png";
+import TechCrunchLogo from "../assets/images/logos/tech-crunch.png";
+
 export default function Mentions() {
   return (
     <Container className="py-12 md:pb-24 md:pt-0">
@@ -23,37 +31,37 @@ export default function Mentions() {
 
 const logos = [
   {
-    src: "src/assets/images/logos/bbc.png",
+    src: BBCLogo,
     alt: "BBC",
     href: "https://youtu.be/3N8bksMCgy0?t=63",
   },
   {
-    src: "src/assets/images/logos/mirror.png",
+    src: MirrorLogo,
     alt: "Mirror",
     href: "https://www.mirror.co.uk/money/sick-letting-agent-fees-5-6190595",
   },
   {
-    src: "src/assets/images/logos/the-telegraph.png",
+    src: TheTelegraphLogo,
     alt: "The Telegraph",
     href: "https://www.telegraph.co.uk/finance/businessclub/11518211/Through-the-keyhole-the-new-ways-to-market-invest-in-and-sell-properties.html",
   },
   {
-    src: "src/assets/images/logos/the-sun.png",
+    src: TheSunLogo,
     alt: "The Sun",
     href: "https://www.thesun.co.uk/money/6142173/avoid-letting-agent-landlord-fees/",
   },
   {
-    src: "src/assets/images/logos/express.png",
+    src: ExpressLogo,
     alt: "Express",
     href: "https://www.express.co.uk/life-style/property/448060/How-to-save-1-600-in-letting-agent-fees-next-time-you-re-renting",
   },
   {
-    src: "src/assets/images/logos/forbes.png",
+    src: ForbesLogo,
     alt: "Forbes",
     href: "https://www.forbes.com/sites/trevorclawson/2014/08/29/its-not-all-about-the-money-trading-equity-for-services/",
   },
   {
-    src: "src/assets/images/logos/tech-crunch.png",
+    src: TechCrunchLogo,
     alt: "Tech Crunch",
     href: "https://techcrunch.com/2017/03/03/openrent-the-uk-online-letting-agent-picks-up-4-4m-from-rocket-internets-gfc/",
   },
