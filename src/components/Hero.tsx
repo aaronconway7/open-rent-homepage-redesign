@@ -1,21 +1,3 @@
-const logos = [
-  {
-    src: "src/assets/images/logos/rightmove.png",
-    alt: "Rightmove",
-    href: "https://www.openrent.co.uk/rightmove",
-  },
-  {
-    src: "src/assets/images/logos/zoopla.png",
-    alt: "Zoopla",
-    href: "https://www.openrent.co.uk/zoopla",
-  },
-  {
-    src: "src/assets/images/logos/prime-location.png",
-    alt: "PrimeLocation",
-    href: "https://www.openrent.co.uk/primelocation",
-  },
-];
-
 export default function Hero() {
   return (
     <div className="py-10 md:py-20 px-4 max-w-3xl mx-auto grid gap-4 md:grid-cols-2">
@@ -36,7 +18,7 @@ export default function Hero() {
         </a>
         <div className="flex flex-wrap gap-x-4">
           {logos.map((logo) => (
-            <a href={logo.href} key={logo.alt}>
+            <a href={logo.href} key={logo.alt} target="_blank">
               <img
                 src={logo.src}
                 alt={logo.alt}
@@ -64,3 +46,21 @@ export default function Hero() {
     </div>
   );
 }
+
+const logos = [
+  {
+    src: "src/assets/images/logos/rightmove.png",
+    alt: "Rightmove",
+    href: "https://www.openrent.co.uk/rightmove",
+  },
+  {
+    src: "src/assets/images/logos/zoopla.png",
+    alt: "Zoopla",
+    href: "https://www.openrent.co.uk/zoopla",
+  },
+  {
+    src: "src/assets/images/logos/prime-location.png",
+    alt: "PrimeLocation",
+    href: "https://www.openrent.co.uk/primelocation",
+  },
+];
